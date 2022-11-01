@@ -182,6 +182,18 @@ const (
 	// GetObjectVersionForReplicationAction  - GetObjectVersionForReplication REST API action
 	GetObjectVersionForReplicationAction = "s3:GetObjectVersionForReplication"
 
+	//GetObjectAclAction
+	GetObjectAclAction = "s3:GetObjectAcl"
+
+	//PutObjectAclAction
+	PutObjectAclAction = "s3:PutObjectAcl"
+
+	//GetBucketAclAction
+	GetBucketAclAction = "s3:GetBucketAcl"
+
+	//PutBucketAclAction
+	PutBucketAclAction = "s3:PutBucketAcl"
+
 	// AllActions - all API actions
 	AllActions = "s3:*"
 )

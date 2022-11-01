@@ -179,6 +179,18 @@ const (
 	// ResetBucketReplicationStateAction - MinIO extension API ResetBucketReplicationState to reset replication state
 	// on a bucket
 	ResetBucketReplicationStateAction = "s3:ResetBucketReplicationState"
+
+	//GetObjectAclAction
+	GetObjectAclAction = "s3:GetObjectAcl"
+
+	//PutObjectAclAction
+	PutObjectAclAction = "s3:PutObjectAcl"
+
+	//GetBucketAclAction
+	GetBucketAclAction = "s3:GetBucketAcl"
+
+	//PutBucketAclAction
+	PutBucketAclAction = "s3:PutBucketAcl"
 )
 
 // List of all supported object actions.
