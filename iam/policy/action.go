@@ -251,6 +251,10 @@ var supportedActions = map[Action]struct{}{
 	ReplicateDeleteAction:                  {},
 	ReplicateTagsAction:                    {},
 	GetObjectVersionForReplicationAction:   {},
+	GetObjectAclAction:                     {},
+	PutObjectAclAction:                     {},
+	GetBucketAclAction:                     {},
+	PutBucketAclAction:                     {},
 	AllActions:                             {},
 }
 
@@ -278,6 +282,8 @@ var supportedObjectActions = map[Action]struct{}{
 	ReplicateObjectAction:                {},
 	ReplicateDeleteAction:                {},
 	ReplicateTagsAction:                  {},
+	GetObjectAclAction:                   {},
+	PutObjectAclAction:                   {},
 	GetObjectVersionForReplicationAction: {},
 }
 
